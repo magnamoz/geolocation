@@ -46,18 +46,17 @@ const Geolocation : React.VFC = () => {
   return (
     <div className="App">
       <S.Container>
-        <h1>Olá</h1>
-        <button onClick={isSuported}>Geolocalização funciona?</button>
+        <S.Button onClick={isSuported}>Geolocalização funciona?</S.Button>
         <p>{browserSupported}</p>
-        <button disabled={showGeolocationButton} onClick={canIGetCoords}>
+        <S.Button disabled={showGeolocationButton} onClick={canIGetCoords}>
           Está permitido?
-        </button>
+        </S.Button>
         <p>{geolocationDenied}</p>
-        <button  disabled={showCoordinatesButton} onClick={getCoords}>
+        <S.Button  disabled={showCoordinatesButton} onClick={getCoords}>
           Latitude e Longitude
-        </button>
-        <p>Latitude: {latitude}</p>
-        <p>Longitude: {longitude}</p>
+        </S.Button>
+        <S.Text>Latitude: {latitude}</S.Text>
+        <S.Text>Longitude: {longitude}</S.Text>
       </S.Container>
     </div>
   );
