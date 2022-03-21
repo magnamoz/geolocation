@@ -1,6 +1,8 @@
 # geolocation-study :round_pushpin:
 
-Project for study.
+A simple study project.
+
+![image](https://user-images.githubusercontent.com/64369784/159377631-dfdb52fc-aaf4-49ba-bab0-7c87e28c1c18.png)
 
 ## :pushpin: Available Scripts
 
